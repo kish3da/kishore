@@ -1,0 +1,379 @@
+.hero img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+   
+}
+
+.hero-text{
+    position: absolute;
+    text-align: center;
+    top: 40rem;
+    left: 50%;
+    
+}
+.hero-text h1{
+    color: navy;
+    font-weight: 900;
+}
+.hero-btn .resume-btn{
+  
+    background-image: url("../Assets/Button.png");
+    border: none;
+    padding: 0.4rem 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 100%;
+    background-size: 100%;
+    background-position: center;
+    margin-right: 0.25rem;
+    color: #fff;
+   
+}
+.hero-btn .work-btn{
+  
+    background: linear-gradient(to right,  #4b54a3 0%,#2989d8 50%,#7db9e8 100%);
+    padding: 0.25rem 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+}
+.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+}
+
+.header a img{
+    height: 120px;
+    width: 100%;
+    margin-left: 1rem;
+}
+.header .menu{
+   margin-right: 10rem;
+   
+}
+.header .menu .link{
+    margin-left: 3rem;
+}
+.header .link{
+    color: #101010;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+.header .menu .link.active:after {
+    content: "";
+    background-image: url("../Assets/Feather.png");
+    background-repeat: no-repeat;
+    width: 100%;
+   height: 40px;
+    display: inline-block;
+    position: absolute;
+  
+    bottom: 0;
+    left: 25px;
+    top: -35px;
+}
+  .header .menu .link.active,   .header .menu .link:hover{
+   color: crimson;
+   position: relative;
+}
+.header .menu .link:hover:after{
+    content: "";
+    background-image: url("../Assets/Feather.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 40px;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+    top: -35px;
+}
+.graphic-design{
+    background-color: rgba(208, 198, 255, 0.1);
+    padding: 5rem;
+   
+}
+.graphic-design .text h1{
+   color: navy;
+   font-weight: 900;
+   margin: 4rem 0;
+   position: relative;
+}
+.graphic-design .text h1:after{
+    content: "";
+    background-image: url("../Assets/Feather.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 40px;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    top: -2px;
+}
+.graphic-design .text p{
+    color: #101010;
+    font-weight: 500;
+    font-size: 18px;
+}
+.graphic-design .btn button{
+    background-image: url("../Assets/Button.png");
+    border: none;
+    padding: 0.4rem 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    background-position: center;
+    
+}
+.graphic-design .design-img img{
+    object-fit: cover;
+    width: 100%;
+}
+
+.projects{
+    padding: 2rem;
+}
+.projects h1{
+    color: navy;
+   font-weight: 900;
+  position: relative;
+}
+.projects h1:after{
+    content: "";
+    background-image: url("../Assets/Feather.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 40px;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: 4rem;
+    top: -35px;
+    transform: rotateY(45deg);
+   
+}
+.projects .links{
+    margin: 3rem 0;
+    text-align: center;
+}
+.projects .links a{
+    color: #101010;
+    text-decoration: none;
+   font-size: 1.3rem;
+   margin: 0 4rem;
+}
+.projects .links a.active{
+    color: crimson;
+}
+.image-card{
+    display: inline-block;
+}
+.image-card:nth-child(1),
+.image-card:nth-child(5),
+.image-card:nth-child(9),
+.image-card:nth-child(13),
+.image-card:nth-child(17),
+.image-card:nth-child(21){
+    width: 66.66%;
+   
+}
+.image-card:nth-child(2),
+.image-card:nth-child(6),
+.image-card:nth-child(10),
+.image-card:nth-child(14),
+.image-card:nth-child(18),
+.image-card:nth-child(22)
+{
+    width: 33.34%; 
+}
+.image-card:nth-child(3),
+.image-card:nth-child(4),
+.image-card:nth-child(7),
+.image-card:nth-child(8),
+.image-card:nth-child(11),
+.image-card:nth-child(12),
+.image-card:nth-child(15),
+.image-card:nth-child(16),
+.image-card:nth-child(19),
+.image-card:nth-child(20),
+.image-card:nth-child(23),
+.image-card:nth-child(24){
+    width: 50%;
+}
+.image-card a .image{
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+
+
+
+
+.tab{
+  
+    margin: 0 2rem 3rem 5rem;
+    font-size: 1.3rem;
+    background: #fff;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+}
+button.active, .tab:visited, .tab:hover, .tab:focus{
+    color: #E3195B;
+   
+    
+}
+ /*.projects-btn button{
+   border: none;
+  
+    background: linear-gradient(0deg, rgba(177,20,78,1) 14.000000000000002%, rgba(178,26,84,1) 28%, rgba(179,26,84,1) 83%, rgba(177,20,78,1) 86%);
+ }*/
+
+ .projects-btn button{
+    background-image: url("../Assets/Button.png");
+    border: none;
+    padding: 0.4rem 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 100%;
+    background-size: 100%;
+    background-position: center;
+    
+ }
+ .companies  h2, .testimonals h2{
+    color: rgba(177,20,78,1);
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 2rem;
+    position: relative;
+
+ }
+ .companies  h2.active:after{
+    content: "";
+    background-image: url("../Assets/Feather.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 40px;
+    display: inline-block;
+    position: absolute;
+    transform: rotateY(45deg);
+    bottom: 0;
+    left: 9.5rem;
+    top: -35px;
+    
+}
+ .companies .list{
+   padding: 1rem;
+    background-color: #4b54a3;
+ }
+ .companies .list .slider-img{
+    padding: 2rem;
+    width: 100%;
+    height: 100%;
+}
+ .companies .list .slider-img img{
+    width: 100%;
+    height: 100%;
+  
+ }
+ 
+ .testimonals h2.active:after{
+    content: "";
+    background-image: url("../Assets/Feather.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 40px;
+    display: inline-block;
+    position: absolute;
+    transform: rotateY(45deg);
+    bottom: 0;
+    left: 5.5rem;
+    top: -35px;
+ }
+ .testimonals .info{
+    background-color: #eee;
+ }
+.testimonals .text-info{
+    background-color:  rgba(177,20,78,1);
+}
+.testimonals .text-info p{
+    line-height: 25px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.hire{
+    background-color: #388fdf;
+    width: auto;
+    height: 100%;
+    background-size: 100%;
+    display: inline-block;
+    padding: 3rem;
+}
+.hire h4{
+    font-weight: 600;
+    position: relative;
+    z-index: 1;
+
+}
+.hire h4.active:after{
+    content: "";
+    background-image: url("../Assets/Feather.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 40px;
+    display: inline-block;
+    position: absolute;
+  
+    bottom: 0;
+    left: 11rem;
+    top: -35px;
+}
+.hire-btn button{
+    border-radius: 50px;
+    background-color:   #E3195B;
+    color: #fff;
+    padding: 1rem;
+    border: none;
+    width: 10rem;
+    height: 60px;
+    font-weight: 600;
+    letter-spacing: 1px;
+   
+}
+.contact{
+    background-color: #E3195B;
+    height: 400px;
+    position: relative;
+    top: -6rem;
+    z-index: -1;
+    padding: 1rem;
+}
+.contact .text{
+    top: 10rem;
+    position: relative;
+}
+
+
+
